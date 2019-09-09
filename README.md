@@ -3,16 +3,17 @@
 Icon fonts with animation embeded in it, using Variable Fonts technology
 
 ## Icons
-- lock
-- favorite
-- location
-- thumb_up
-- phone
-- check
-- play
-- edit
 - menu
+- play
+- favorite
+- thumb_up
+- check
 - notifications
+- edit
+- lock
+- phone
+- search
+- location
 
 ## Try it
 * download the ttf files
