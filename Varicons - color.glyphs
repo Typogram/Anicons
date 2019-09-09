@@ -1,15 +1,5 @@
 {
 .appVersion = "1264";
-DisplayStrings = (
-q,
-"/_q.conp.main",
-"/_b.comp.main",
-"/_q.conp.main",
-"/_q.conp.main",
-"/_m.comp.color1 m",
-"",
-""
-);
 customParameters = (
 {
 name = Axes;
@@ -42,8 +32,8 @@ customParameters = (
 name = "Color Palettes";
 value = (
 (
-"148,116,106,255",
-"255,37,91,255"
+"50,74,94,255",
+"132,219,255,255"
 )
 );
 }
@@ -62,8 +52,8 @@ customParameters = (
 name = "Color Palettes";
 value = (
 (
-"148,116,106,255",
-"255,37,91,255"
+"50,74,94,255",
+"132,219,255,255"
 )
 );
 }
