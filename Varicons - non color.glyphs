@@ -1,5 +1,8 @@
 {
-.appVersion = "1265";
+.appVersion = "1272";
+DisplayStrings = (
+A
+);
 customParameters = (
 {
 name = Axes;
@@ -27,6 +30,20 @@ fontMaster = (
 ascender = 200;
 capHeight = 200;
 custom = Origin;
+customParameters = (
+{
+name = hheaAscender;
+value = 200;
+},
+{
+name = hheaDescender;
+value = -40;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -40;
 id = "374D6CB2-7ECF-4C4C-B17A-FDC7D09CFFBE";
 weightValue = 1;
@@ -36,6 +53,20 @@ xHeight = 160;
 ascender = 200;
 capHeight = 200;
 custom = Target;
+customParameters = (
+{
+name = hheaAscender;
+value = 200;
+},
+{
+name = hheaDescender;
+value = -40;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -40;
 iconName = Bold;
 id = "43180DBC-A696-476D-8635-86ED5F988BC9";

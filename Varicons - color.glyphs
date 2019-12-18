@@ -1,5 +1,5 @@
 {
-.appVersion = "1265";
+.appVersion = "1272";
 customParameters = (
 {
 name = Axes;
@@ -36,6 +36,18 @@ value = (
 "132,219,255,255"
 )
 );
+},
+{
+name = hheaAscender;
+value = 200;
+},
+{
+name = hheaDescender;
+value = -40;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -40;
@@ -56,6 +68,18 @@ value = (
 "132,219,255,255"
 )
 );
+},
+{
+name = hheaAscender;
+value = 200;
+},
+{
+name = hheaDescender;
+value = -40;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -40;
