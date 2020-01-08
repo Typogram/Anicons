@@ -27,7 +27,7 @@ You can easily incorporate Anicons into your design projects by installing it on
 
 ## Use Anicons on the Web
 
-##### 1. Embed Font
+#### 1. Embed Font
 To embed Anicons fonts into a webpage, copy this code into the <head> of your HTML document. 
 
 Use the following HTML to embed Anicons Regular:
@@ -42,21 +42,21 @@ Use the following HTML to embed Anicons Regular and Anicons Color:
 ```
 <link href="https://fonts.googleapis.com/css?family=Anicons+Regular|Anicons+Color&display=swap" rel="stylesheet">
 ```
-##### 2. Specify Icon Character in HTML
+#### 2. Specify Icon Character in HTML
 
 Use the following HTML to specify the icon character:
 ```
 <!-- replace “A” with appropriate character.--> 
 <div class=”icon”>A</div>
 ``` 
-##### 3. Specify Font Family in CSS
+#### 3. Specify Font Family in CSS
 
 Use the following CSS rules to specify the families:
 ```
 font-family: "Anicons Regular", sans-serif;
 font-family: "Anicons Color", sans-serif;
 ```
-##### 4. Animate
+#### 4. Animate
 Use the following CSS rules to animate the icon. `font-variation-settings` provides control over the variable font characteristics, (in our case, time) of our icon font. 
 ```
 .icon {
