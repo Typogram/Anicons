@@ -71,7 +71,7 @@ or use @keyframes animation:
 ```
 @keyframes icon-animation {
     0% { font-variation-settings: "TIME" 1; }
-	  100% { font-variation-settings: "TIME" 100; }
+    100% { font-variation-settings: "TIME" 100; }
 }
 .icon {
     animation: icon-animation .5s ease-in-out infinite;
