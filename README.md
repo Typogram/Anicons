@@ -16,12 +16,14 @@ Anicons is the first animated color variable icon font. It is made with two type
 - location
 
 ## Use Anicons in your design projects 
-You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with a static version of the icon font with two weights: Start and Final. This helps you plan how you will Anicons in your project.
+You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with a static version of the icon font with two weights: Start and End. This helps you plan how you will Anicons in your project.
 
-{image-url}
-*Start shows the icon at the start stage of the animation*
-{image-url}
-*Final shows the icon at the final stage of the animation*
+<img width="379" alt="AniconStatStart" src="https://user-images.githubusercontent.com/41246474/72045540-587ed380-3284-11ea-8c9a-bea3bdfdcd57.png">
+*Start shows the icon at the starting stage of the animation*
+
+<img width="379" alt="AniconStatEnd" src="https://user-images.githubusercontent.com/41246474/72045570-6d5b6700-3284-11ea-8ea6-08b6993b30a5.png">
+*End shows the icon at the ending stage of the animation*
+
 
 ## Use Anicons on the Web
 
