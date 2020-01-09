@@ -68,17 +68,17 @@ Use the following CSS rules to animate the icon. `font-variation-settings` provi
 	transition: font-variation-settings 0.4s ease;
 }
 .icon:hover {
-	 font-variation-settings: "TIME" 100;
+	font-variation-settings: "TIME" 100;
 }
 ```
 or use @keyframes animation:
 ```
 @keyframes icon-animation {
-    0% { font-variation-settings: "TIME" 1; }
-    100% { font-variation-settings: "TIME" 100; }
+	0% { font-variation-settings: "TIME" 1; }
+	100% { font-variation-settings: "TIME" 100; }
 }
 .icon {
-    animation: icon-animation .5s ease-in-out infinite;
+	animation: icon-animation .5s ease-in-out infinite;
 }
 ```
 ## Reference
