@@ -1,6 +1,6 @@
 # Anicons 
 
-Anicons is the first animated color variable icon font. It is made with two types of technologies: Variable Fonts and Color Fonts. We want to experiment with the potentials created by combining these two cutting edge font technologies with an icon font.
+Anicons is the first animated color variable icon font. It is made with two types of technologies: Variable Fonts and Color Fonts. We want to experiment with creating an icon font that combines these two cutting edge font technologies.
 
 ## Icons
 - menu
