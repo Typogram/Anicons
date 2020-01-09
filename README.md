@@ -16,7 +16,7 @@ Anicons is the first animated color variable icon font. It is made with two type
 - location
 
 ## Use Anicons in your design projects 
-You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with a static version of the icon font with two weights: Start and End. This helps you plan how you will Anicons in your project.
+You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with static versions of the icon font with two weights: Start and End. The static versions help you plan how you will Anicons in your project.
 
 <br/>
 
