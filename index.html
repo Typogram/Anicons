@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Jan 09 2020 07:39:04 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5e13b472c5e98ce1130493a8" data-wf-site="5df6b1096a31d57b5c419bb1">
+<head>
+  <meta charset="utf-8">
+  <title>Anicons: Icon Fonts With Color and Animation</title>
+  <meta content="Anicons: Icon Fonts With Color and Animation" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/anicons.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i&display=swap" rel="stylesheet">
+  <!--  embed CSS from Codepen: Varicons Microsite  -->
+  <link rel="stylesheet" href="https://codepen.io/wendyz/pen/OJLQEKy.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
+</head>
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar header fixed-header w-nav">
+    <a href="index.html" class="anicons-logo w-inline-block w--current">
+      <div><span class="letter">A</span><span class="letter">n</span><span class="letter">i</span><span class="letter">c</span><span class="letter anicons"> </span><span class="letter">n</span><span class="letter">s</span></div>
+    </a>
+    <nav role="navigation" class="nav-menu w-clearfix w-nav-menu"><a href="index.html" class="nav-link w-nav-link w--current">Showcase</a><a href="use.html" class="nav-link w-nav-link">Use</a><a href="about.html" class="nav-link w-nav-link">About</a><a href="https://github.com/Typogram/Varicons/releases/download/1.0/Anicons.zip" class="nav-button w-nav-link">Download</a></nav>
+    <div class="menu-button w-nav-button">
+      <div class="menu-icon">A</div>
+    </div>
+  </div>
+  <div id="sliders" class="sliders">
+    <div id="showcase-anicons-app" class="showcase-app-wrapper">
+      <div class="slider">
+        <div class="hero-text">
+          <div class="hero-title">A new kind of icon fonts</div>
+          <h2 class="hero-subhead">with baked-in animation and colors</h2>
+        </div>
+        <div class="icon-background">
+          <div v-for="c in nonColorCharacters" v-cloak="true" class="icon-square">{{c}}</div>
+        </div>
+      </div>
+      <div class="slider gradient-bg-2">
+        <div class="w-container">
+          <div class="w-layout-grid showcase-grid-large">
+            <div id="w-node-4601028baf53-130493a8" class="showcase-icon-font dashed-left"></div>
+            <div id="w-node-4601028baf54-130493a8" class="showcase-icon-font dashed-left"></div>
+            <div class="showcase-icon-font"></div>
+            <div class="showcase-icon-font dashed-top-down"></div>
+            <div class="showcase-icon-font border-solid">
+              <div class="preview-box">
+                <div class="icon-font-large">P</div>
+              </div>
+            </div>
+            <div class="showcase-icon-font dashed-top-down"></div>
+            <div class="showcase-icon-font dashed-left"></div>
+            <div class="showcase-icon-font dashed-left"></div>
+            <div class="showcase-icon-font"></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div id="showcase-single" v-cloak="true" class="showcase">
+          <div class="invisible-slider invisible-slider-2 w-embed"><input class="invisible-slider" type="range" min="1" max="100" v-model="time"></div>
+          <div class="icon-row">
+            <div class="showcase-icon">c</div>
+            <div v-bind:style="iconStyles" class="showcase-icon showcase-icon-middle">c</div>
+            <div class="showcase-icon showcase-icon-end">c</div>
+          </div>
+          <div class="icon-slider icon-slider-dark">
+            <div v-bind:style="thumbStyles" class="slider-thumb slider-thumb-black">
+              <div class="icon-time-info icon-time-info-dark">{{time}}</div>
+            </div>
+            <div class="code-block code-block-dark">font-variation-settings: &quot;TIME&quot; {{time}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="slider gradient-bg">
+        <div class="container w-container">
+          <div class="card-wrapper">
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 1</div>
+            </div>
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 17</div>
+            </div>
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 34</div>
+            </div>
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 50</div>
+            </div>
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 67</div>
+            </div>
+            <div class="card half-width-card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 83</div>
+            </div>
+            <div class="card">
+              <div class="card-icon">g</div>
+              <div class="card-index">&quot;TIME&quot; 100</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider gradient-bg-2">
+        <div id="showcase-triple" v-cloak="true" class="showcase">
+          <div class="invisible-slider invisible-slider-2 w-embed"><input class="invisible-slider" type="range" min="1" max="100" v-model="time2"></div>
+          <div class="icon-row-2">
+            <div class="showcase-icon-2">A</div>
+            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">A</div>
+            <div class="showcase-icon-2 showcase-icon-2-end">A</div>
+          </div>
+          <div class="icon-row-2">
+            <div class="showcase-icon-2">B</div>
+            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">B</div>
+            <div class="showcase-icon-2 showcase-icon-2-end">B</div>
+          </div>
+          <div class="icon-row-2">
+            <div class="showcase-icon-2">C</div>
+            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">C</div>
+            <div class="showcase-icon-2 showcase-icon-2-end">C</div>
+          </div>
+          <div class="icon-slider">
+            <div v-bind:style="thumbStyles2" class="slider-thumb">
+              <div class="icon-time-info">{{time2}}</div>
+            </div>
+            <div class="code-block code-block-white">font-variation-settings: &quot;TIME&quot; {{time2}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="showcase-star">
+          <div id="big-icon" class="big-icon">o</div>
+          <div v-on:mouseover="handleStarMouseOver" v-on:mouseleave="handleStarMouseLeave" class="small-icon small-icon-top-left">o</div>
+          <div v-on:mouseleave="handleStarMouseLeave" v-on:mouseover="handleStarMouseOver" class="small-icon small-icon-top-right">n</div>
+          <div v-on:mouseleave="handleStarMouseLeave" v-on:mouseover="handleStarMouseOver" class="small-icon small-icon-bottom-left">m</div>
+          <div v-on:mouseleave="handleStarMouseLeave" v-on:mouseover="handleStarMouseOver" class="small-icon small-icon-bottom-right">q</div>
+          <div class="star-line star-line-top-right"></div>
+          <div class="star-line star-line-top-left"></div>
+          <div class="star-line star-line-bottom-left"></div>
+          <div class="star-line star-line-bottom-right"></div>
+        </div>
+      </div>
+      <div class="slider gradient-bg-2">
+        <div class="container-2 w-container">
+          <div class="grid-wrapper">
+            <div class="w-layout-grid showcase-grid-2">
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">A</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">V</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">e</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">m</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">R</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">g</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">w</div>
+              </div>
+              <div class="showcase-icon-font">
+                <div class="icon-font-medium">a</div>
+              </div>
+              <div id="w-node-5c5b996dea3f-130493a8" class="showcase-icon-font">
+                <div class="icon-font-medium">c</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!--  embed JS from Codepen: Showcase  -->
+  <script src="https://codepen.io/wendyz/pen/VwYyVxJ.js"></script>
+</body>
+</html>
