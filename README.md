@@ -18,6 +18,7 @@ Anicons is the first animated color variable icon font. It is made with two type
 ## Use Anicons in your design projects 
 You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with a static version of the icon font with two weights: Start and End. This helps you plan how you will Anicons in your project.
 
+<br/>
 
 <img width="379" alt="AniconStatStart" src="https://user-images.githubusercontent.com/41246474/72045540-587ed380-3284-11ea-8c9a-bea3bdfdcd57.png"><br/>
 Start shows the icon at the starting stage of the animation
@@ -82,6 +83,7 @@ or use @keyframes animation:
 ```
 ## Reference
 https://www.harbortype.com/blog/rocher-color-making-a-variable-color-font/
+<br/>
 https://glyphsapp.com/tutorials/creating-a-variable-font
 
 
