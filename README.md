@@ -19,12 +19,13 @@ Anicons is the first animated color variable icon font. It is made with two type
 You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with a static version of the icon font with two weights: Start and End. This helps you plan how you will Anicons in your project.
 
 
-<img width="379" alt="AniconStatStart" src="https://user-images.githubusercontent.com/41246474/72045540-587ed380-3284-11ea-8c9a-bea3bdfdcd57.png">
+<img width="379" alt="AniconStatStart" src="https://user-images.githubusercontent.com/41246474/72045540-587ed380-3284-11ea-8c9a-bea3bdfdcd57.png"><br/>
 Start shows the icon at the starting stage of the animation
 
 
-<img width="379" alt="AniconStatEnd" src="https://user-images.githubusercontent.com/41246474/72045570-6d5b6700-3284-11ea-8ea6-08b6993b30a5.png">
+<img width="379" alt="AniconStatEnd" src="https://user-images.githubusercontent.com/41246474/72045570-6d5b6700-3284-11ea-8ea6-08b6993b30a5.png"><br/>
 End shows the icon at the ending stage of the animation
+
 
 
 ## Use Anicons on the Web
@@ -73,7 +74,7 @@ or use @keyframes animation:
 ```
 @keyframes icon-animation {
     0% { font-variation-settings: "TIME" 1; }
-	100% { font-variation-settings: "TIME" 100; }
+    100% { font-variation-settings: "TIME" 100; }
 }
 .icon {
     animation: icon-animation .5s ease-in-out infinite;
