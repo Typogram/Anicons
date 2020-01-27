@@ -454,6 +454,10 @@
   margin-left: auto;
 }
 
+.use-container.use-container-margin-top {
+  margin-top: 110px;
+}
+
 .anicons-logo {
   position: relative;
   top: -4px;
@@ -776,8 +780,8 @@
   bottom: auto;
   display: -ms-grid;
   display: grid;
-  width: 50vw;
-  height: 50vw;
+  width: 80vh;
+  height: 80vh;
   margin: 0px 0% 0% 0px;
   padding-top: 0px;
   padding-right: 0px;
@@ -1377,6 +1381,10 @@
   .hero-title {
     font-size: 100px;
   }
+  .showcase-grid-2 {
+    width: 60vw;
+    height: 60vw;
+  }
   .hero-subhead {
     font-size: 40px;
   }
@@ -1527,6 +1535,10 @@
   }
   .hero-title {
     font-size: 40px;
+  }
+  .showcase-grid-2 {
+    width: 90vw;
+    height: 90vw;
   }
   .hero-subhead {
     font-size: 24px;
