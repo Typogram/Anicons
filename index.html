@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jan 21 2020 07:53:48 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jan 27 2020 07:18:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e13b472c5e98ce1130493a8" data-wf-site="5df6b1096a31d57b5c419bb1">
 <head>
   <meta charset="utf-8">
@@ -32,31 +32,12 @@
   </div>
   <div id="sliders" class="sliders">
     <div id="showcase-anicons-app" class="showcase-app-wrapper">
-      <div class="slider gradient-bg-3">
-        <div class="hero-text">
-          <div class="hero-title">A new kind of icon fonts</div>
-          <h2 class="hero-subhead">with baked-in animation and colors</h2>
-        </div>
-        <div class="icon-background">
-          <div v-for="c in nonColorCharacters" v-cloak="true" class="icon-square">{{c}}</div>
-        </div>
-      </div>
       <div class="slider gradient-bg-2">
         <div class="w-container">
-          <div class="w-layout-grid showcase-grid-large">
-            <div id="w-node-4601028baf53-130493a8" class="showcase-icon-font dashed-left"></div>
-            <div id="w-node-4601028baf54-130493a8" class="showcase-icon-font dashed-left"></div>
-            <div class="showcase-icon-font"></div>
-            <div class="showcase-icon-font dashed-top-down"></div>
-            <div class="showcase-icon-font border-solid">
-              <div class="preview-box">
-                <div class="icon-font-large">P</div>
-              </div>
+          <div class="showcase-icon-font">
+            <div class="preview-box">
+              <div class="icon-font-large">P</div>
             </div>
-            <div class="showcase-icon-font dashed-top-down"></div>
-            <div class="showcase-icon-font dashed-left"></div>
-            <div class="showcase-icon-font dashed-left"></div>
-            <div class="showcase-icon-font"></div>
           </div>
         </div>
       </div>
@@ -70,9 +51,8 @@
           </div>
           <div class="icon-slider icon-slider-dark">
             <div v-bind:style="thumbStyles" class="slider-thumb slider-thumb-black">
-              <div class="icon-time-info icon-time-info-dark">{{time}}</div>
+              <div class="icon-time-info icon-time-info-dark">&quot;TIME&quot; {{time}}</div>
             </div>
-            <div class="code-block code-block-dark">font-variation-settings: &quot;TIME&quot; {{time}}</div>
           </div>
         </div>
       </div>
@@ -130,9 +110,8 @@
           </div>
           <div class="icon-slider">
             <div v-bind:style="thumbStyles2" class="slider-thumb">
-              <div class="icon-time-info">{{time2}}</div>
+              <div class="icon-time-info">&quot;TIME&quot; {{time2}}</div>
             </div>
-            <div class="code-block code-block-white">font-variation-settings: &quot;TIME&quot; {{time2}}</div>
           </div>
         </div>
       </div>

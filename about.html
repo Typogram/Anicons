@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jan 21 2020 07:53:48 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jan 27 2020 07:18:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e141f69775c49d0701b3b41" data-wf-site="5df6b1096a31d57b5c419bb1">
 <head>
   <meta charset="utf-8">
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://codepen.io/wendyz/pen/OJLQEKy.css">
 </head>
 <body>
-  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar header w-nav">
+  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar header fixed-header header-with-background w-nav">
     <a href="index.html" class="anicons-logo w-inline-block">
       <div><span class="letter">A</span><span class="letter">n</span><span class="letter">i</span><span class="letter">c</span><span class="letter anicons"> </span><span class="letter">n</span><span class="letter">s</span></div>
     </a>
@@ -29,11 +29,18 @@
       <div class="menu-icon">A</div>
     </div>
   </div>
+  <div id="about-anicons-app" class="slider gradient-bg-3">
+    <div class="hero-text">
+      <div class="hero-title">A new kind of icon fonts</div>
+      <h2 class="hero-subhead">with baked-in animation and colors</h2>
+    </div>
+    <div class="icon-background">
+      <div v-for="c in nonColorCharacters" v-cloak="true" class="icon-square">{{c}}</div>
+    </div>
+  </div>
   <div class="container-3 w-container">
-    <h1 class="title">About Anicons</h1>
     <div class="_4-8-col w-row">
-      <div class="column-7 w-col w-col-4">
-        <h2 class="article-subhead">What is it?</h2><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e16ba4eef00e7ac7a6b1628_Heart.png" width="171" alt="" class="image"></div>
+      <div class="column-7 w-col w-col-4"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e16ba4eef00e7ac7a6b1628_Heart.png" width="171" alt="" class="image"></div>
       <div class="column-7 w-col w-col-8">
         <p class="content emphasized-text">Anicons is the first animated color variable icon font. It is made with two types of technologies: Variable Fonts and Color Fonts. We want to experiment with the potentials created by combining these two cutting edge font technologies. An icon font is a great way to start. In this post, we want to share our process of creating Anicons and what we have learned.<br></p>
       </div>
@@ -55,10 +62,10 @@
       </div>
       <div class="w-col w-col-4"></div>
     </div>
-    <div class="article-image-container"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e139bbd5aa3988910108361_Screen%20Shot%202020-01-06%20at%203.41.41%20PM.png" width="860" alt="" class="image">
+    <div class="article-image-container"><img src="images/ContentPage-1.png" width="860" srcset="images/ContentPage-1.png 500w, images/ContentPage-1.png 800w, images/ContentPage-1.png 1080w, images/ContentPage-1.png 1600w, images/ContentPage-1.png 2000w, images/ContentPage-1.png 2600w, images/ContentPage-1.png 3200w, images/ContentPage-1.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
       <div class="caption centered">Master One – Origin layer with the initial hamburger icon</div>
     </div>
-    <div class="article-image-container"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e139bdb946b1253adc4c1cf_Screen%20Shot%202020-01-06%20at%203.41.52%20PM.png" width="860" alt="" class="image">
+    <div class="article-image-container"><img src="images/ContentPage-2.png" width="860" srcset="images/ContentPage-2.png 500w, images/ContentPage-2.png 800w, images/ContentPage-2.png 1080w, images/ContentPage-2.png 1600w, images/ContentPage-2.png 2000w, images/ContentPage-2.png 2600w, images/ContentPage-2.png 3200w, images/ContentPage-2.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
       <div class="caption centered">Master Two – Target layer with the final cross icon</div>
     </div>
     <div class="_8-4-col w-row">
@@ -69,10 +76,10 @@
       </div>
       <div class="w-col w-col-4"></div>
     </div>
-    <div class="article-image-container"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e138998946b121e7cc40b16_Screen%20Shot%202020-01-06%20at%202.24.07%20PM.png" width="860" alt="" class="image">
+    <div class="article-image-container"><img src="images/ContentPage-3.png" width="860" srcset="images/ContentPage-3.png 500w, images/ContentPage-3.png 800w, images/ContentPage-3.png 1080w, images/ContentPage-3.png 1600w, images/ContentPage-3.png 2000w, images/ContentPage-3.png 2600w, images/ContentPage-3.png 3200w, images/ContentPage-3.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
       <div class="caption">Single colored icon in Origin color sublayer</div>
     </div>
-    <div class="article-image-container"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e1389b45aa398589f0f6101_Screen%20Shot%202020-01-06%20at%202.23.52%20PM.png" width="860" alt="" class="image">
+    <div class="article-image-container"><img src="images/ContentPage-4.png" width="860" srcset="images/ContentPage-4.png 500w, images/ContentPage-4.png 800w, images/ContentPage-4.png 1080w, images/ContentPage-4.png 1600w, images/ContentPage-4.png 2000w, images/ContentPage-4.png 2600w, images/ContentPage-4.png 3200w, images/ContentPage-4.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
       <div class="caption centered">Single colored icon in Target color sublayer</div>
     </div>
     <div class="_4-8-col w-row">
@@ -84,7 +91,7 @@
         <p class="content">For bi-colored icons, there is one additional step: icons need to be separated by color and placed into their corresponding color sub-layers. For example, if we want to create this bi-colored heart icon, we have to isolate different parts of the icon including their animations, base on the colors, and then place the icon parts into correct color layers.<br>‍<br>Since we now have two colors for the icon and also need a fallback, we have to create three copies of each variable font icon. Again, we import these copies as components. we place the original copy into the Origin and Target layers as the fallback. In the second copy, we only keep the parts of the icon that is in dark blue. We place this copy into the dark blue sublayers under origin and target. In the third copy, we only include light blue parts. We place this copy into the light blue sublayer under origin and target.<br><br>Once these steps are done for every single icon, export and we will have a bi-colored animated variable icon font.<br></p>
       </div>
     </div>
-    <div class="article-image-container"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e13887c946b127ecec4023f_Screen%20Shot%202020-01-05%20at%203.22.04%20PM.png" width="860" alt="" class="image">
+    <div class="article-image-container"><img src="images/ContentPage-5.png" width="860" srcset="images/ContentPage-5.png 500w, images/ContentPage-5.png 800w, images/ContentPage-5.png 1080w, images/ContentPage-5.png 1600w, images/ContentPage-5.png 2000w, images/ContentPage-5.png 2600w, images/ContentPage-5.png 3200w, images/ContentPage-5.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
       <div class="caption centered">Bi-Colored icons must be separated by colors</div>
     </div>
     <div class="_8-4-col w-row">
@@ -98,15 +105,18 @@
       </div>
       <div class="w-col w-col-4"></div>
     </div>
-    <div class="_8-4-col footer w-row">
-      <div class="column-7 w-col w-col-8">
-        <p class="content">Icon font by Hua Shu, Wenting Zhang<br>Website by Hua Shu, Wenting Zhang<br>Content editing by Hua Shu<br></p>
-      </div>
-      <div class="w-col w-col-4"><a href="http://fonts.google.com" class="w-inline-block"><img src="images/made_by_google_fonts_black.svg" alt=""></a></div>
-    </div>
   </div>
+  <footer class="footer">
+    <div class="container-3 w-container">
+      <div class="footer-menu">
+        <p class="content white-content">Anicons design and production by Wenting Zhang, Hua Shu<br>Website by Hua Shu, Wenting Zhang<br>Content by Hua Shu<br></p><a href="http://fonts.google.com" class="logo-link w-inline-block"><img src="images/made_by_google_fonts_white.svg" alt=""></a></div>
+    </div>
+  </footer>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!--  embed JS from Codepen: About  -->
+  <script src="https://codepen.io/wendyz/pen/qBEwBxo.js"></script>
 </body>
 </html>
