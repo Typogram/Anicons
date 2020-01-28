@@ -10,6 +10,11 @@
   grid-column-gap: 16px;
 }
 
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
 .showcase-icon-font {
   position: relative;
   border-radius: 0px;
@@ -699,13 +704,20 @@
   background-image: linear-gradient(180deg, #fff 40%, #84dbff);
 }
 
+.slider.gradient-bg-3.hero-slider {
+  height: 80vh;
+}
+
 .slider.gradient-bg-4 {
   background-image: linear-gradient(151deg, #54ff65, #3c9fe7 84%);
 }
 
 .slider.gradient-bg-5 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(51%, #fff), to(#84dbff));
-  background-image: linear-gradient(180deg, #fff 51%, #84dbff);
+  background-color: #ffd0d2;
+}
+
+.slider.hero-slider {
+  height: 80vh;
 }
 
 .sliders {
@@ -1328,6 +1340,37 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.down-arrow-wrapper {
+  position: absolute;
+  bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.down-arrow {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-family: 'Recursive sans linear', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 @media (max-width: 991px) {
