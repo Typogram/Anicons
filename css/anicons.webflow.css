@@ -1017,7 +1017,6 @@ a {
   position: static;
   display: block;
   overflow: hidden;
-  margin-top: 76px;
   padding-right: 1.5%;
   padding-left: 1.5%;
   -webkit-box-pack: center;
@@ -1033,6 +1032,10 @@ a {
   border-color: #000;
   background-color: transparent;
   color: #fff;
+}
+
+.container-3.container-3-margin-top {
+  margin-top: 76px;
 }
 
 .article-subhead {
