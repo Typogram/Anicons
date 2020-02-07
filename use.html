@@ -45,21 +45,19 @@
         <div class="block-title">Use Anicons on Web</div>
         <div class="left-column">
           <h4 class="instruction-title">1. Embed Font</h4>
-          <p class="instruction-description">To embed Anicons fonts into a webpage, copy this code into the &lt;head&gt; of your HTML document.</p>
-          <p class="instruction-description">Use the following HTML to embed Anicons Regular:</p>
-          <div class="code-block">&lt;link href=&quot;https://fonts.googleapis.com/css?family=Anicons+<br>Regular&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</div>
-          <p class="instruction-description">Use the following HTML to embed Anicons Color:</p>
-          <div class="code-block">&lt;link href=&quot;https://fonts.googleapis.com/css?family=Anicons+<br>Color&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</div>
-          <p class="instruction-description">Use the following HTML to embed Anicons Regular and Anicons Color:</p>
-          <div class="code-block">&lt;link href=&quot;https://fonts.googleapis.com/css?family=Anicons+<br>Regular|Anicons+Color&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</div>
+          <p class="instruction-description">To embed Anicons fonts into a webpage, self host the fonts and add them to CSS.</p>
+          <p class="instruction-description">Use the following CSS to embed Anicons Regular:</p>
+          <div class="code-block">@font-face {<br>    font-family: "Anicons Regular"; <br>    url(Anicons-Regular.woff2) format('woff2');<br>}</div>
+          <p class="instruction-description">Use the following CSS to embed Anicons Color:</p>
+          <div class="code-block">@font-face {<br>    font-family: "Anicons Regular"; <br>    url(Anicons-Color.woff2) format('woff2');<br>}</div>
           <h4 class="instruction-title">2. Specify Icon Character in HTML</h4>
           <p class="instruction-description">Use the following HTML to specify the icon character:</p>
           <div class="code-block">&lt;!-- replace “A” with appropriate character. --&gt;<br>&lt;div class=”icon”&gt;A&lt;/div&gt;</div>
         </div>
         <div class="right-column">
           <h4 class="instruction-title">3. Specify Font Family in CSS</h4>
-          <p class="instruction-description">Use the following CSS rules to specify the families:</p>
-          <div class="code-block">font-family: &quot;Anicons Regular&quot;, sans-serif;<br>font-family: &quot;Anicons Color&quot;, sans-serif;</div>
+          <p class="instruction-description">Use the following CSS rules to use the fonts on some elements or classes:</p>
+          <div class="code-block">p {<br>    font-family: &quot;Anicons Regular&quot;, sans-serif;<br>font-family: &quot;Anicons Color&quot;, sans-serif;<br> }</div>
           <h4 class="instruction-title">4. Animate</h4>
           <p class="instruction-description">Use the following CSS rules to animate the icon:</p>
           <div class="code-block">.icon {<br>    font-variation-settings: &quot;TIME&quot; 1;<br>    transition: font-variation-settings 0.4s ease;<br>}<br>.icon:hover {<br>    font-variation-settings: &quot;TIME&quot; 100;<br>}</div>
