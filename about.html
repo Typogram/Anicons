@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Feb 03 2020 07:06:35 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Feb 11 2020 17:44:26 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e141f69775c49d0701b3b41" data-wf-site="5df6b1096a31d57b5c419bb1">
 <head>
   <meta charset="utf-8">
@@ -31,15 +31,15 @@
   </div>
   <div class="container-3 container-3-margin-top w-container">
     <div class="_4-8-col w-row">
-      <div class="column-7 w-col w-col-4"><img src="images/about2.png" width="171" srcset="images/about2.png 500w, images/about2.png 800w, images/about2.png 1080w, images/about2.png 1422w" sizes="(max-width: 767px) 96vw, 29vw" alt="" class="image"></div>
+      <div class="column-7 w-col w-col-4"><img src="images/about2.png" width="171" srcset="images/about2-p-500.png 500w, images/about2-p-800.png 800w, images/about2-p-1080.png 1080w, images/about2.png 1422w" sizes="(max-width: 767px) 96vw, 29vw" alt="" class="image"></div>
       <div class="column-7 w-col w-col-8">
-        <p class="content emphasized-text">Anicons is the world’s first animated color icon font, based on <a target="_blank" href="https://material.io/resources/icons/?style=baseline">Material Design Icons</a>. Through creating Anicons, we experimented with combining two cutting edge font technologies: Variable Fonts and Color Fonts. In this post, we will share our process of creating Anicons and what we have learned.<br></p>
+        <p class="content emphasized-text">Anicons is the world’s first animated color icon font, based on<a href="https://material.io/resources/icons/?style=baseline"> Material Design Icons</a>. Anicons is an experiment that combines two cutting edge font technologies: variable fonts and color fonts. In this post, we will share our process of creating Anicons and lessons learned.<br></p>
       </div>
     </div>
     <div class="_8-4-col w-row">
       <div class="column-7 w-col w-col-8">
-        <h1 class="section-header">A Quick Overview of Variable Fonts &amp; Color Fonts</h1>
-        <p class="content">Variable fonts is a cutting edge font technology that allows a single font to act like multiple fonts. When you install a variable font, you have the flexibility to control many stylistic elements, such as weight, width, of the font. For designers, this means more choices, ease, and control. For non-designers, this means the ability to quickly create designs with more flexibility.<br>‍<br>Variable fonts are made possible by a process called multiple masters. A master is essentially a template for the font. If we are creating a font with variable weight. we create two masters: the first master is the lightest weight, the second master is the boldest weight. Once we export a variable font file, the file will contain all the possible interpolation between the two masters. <br><br>Color fonts embed additional data to display more graphics properties, like color, texture, and shading. Color fonts are the perfect technology for icons because most icons are systematic, colored or multicolored. The specific type of color fonts we have chosen to experiment with is COLR/CPAL, mostly because it has simpler formatting than other types of color fonts.<br></p>
+        <h1 class="section-header">A Quick Overview of Variable Fonts and Color Fonts<br></h1>
+        <p class="content">Variable font technology allows a single font to act like multiple fonts. When you install a variable font, you have the flexibility to control many stylistic elements, such as weight, width, of the font. For designers, this means more choices, ease, and control. For non-designers, this means the ability to quickly create designs with more flexibility.<br>‍<br>Variable fonts are made possible by a process called multiple masters. A master is essentially a template for the font. If we are creating a font with variable weight, we create two masters—the first master is the lightest weight; the second master is the boldest weight. Once we export a variable font file, the file will contain all the possible interpolation between the two masters.<br>‍<br>Color fonts embed additional data to display more graphics properties, like color, texture, and shading. Color fonts are the perfect technology for icons because most icons are systematic, colored or multicolored. The specific type of color fonts we have chosen to experiment with is COLR/CPAL, mostly because it has simpler formatting than other types of color fonts. <br></p>
       </div>
       <div class="column-6 w-col w-col-4"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e15714b274eec4c4cb8eda9_Artboard%203.png" width="328" alt="" class="image">
         <div class="caption centered">Examples of Variable Fonts and Color Fonts</div>
@@ -47,9 +47,9 @@
     </div>
     <div class="_8-4-col w-row">
       <div class="column-7 w-col w-col-8">
-        <h1 class="article-subhead">Create your own Anicons!</h1>
-        <h1 class="section-header">Apply Variable Fonts technology</h1>
-        <p class="content">We use Variable Fonts technology to create and animate the variable icon fonts. We will create two masters for our icon fonts: the first master represents containers the initial icon on the Origin layer. It represents the animation at the initial stage. This is also the Origin layer; the second master contains the final icon on the Target layer. It represents the animation at its final stage. The icon font is animated when the browser transitions from the Origin to the Target layer.<br><br>Between the Origin and Target layers, we can add additional sublayers using the Bracket trick to control the animation to make it more smooth. Once exported, we will have an OTF file with a variable icon font with animation property.<br></p>
+        <h1 class="article-subhead">Create your own Anicons</h1>
+        <h1 class="section-header">Apply Variable Fonts Technology<br></h1>
+        <p class="content">We used variable fonts technology to create and animate the variable icon fonts. For regular animated variable icons, first, add a custom time axis parameter and then, create two masters in Glyphs. The first master contains the initial icon on the Origin layer. This master represents the animation at the initial stage. The second master contains the final icon on the Target layer. This master represents the animation at its final stage. The icon font is animated when the browser transitions from the Origin to the Target layer. It is also possible to add additional sublayers, between Origin and Target layers, to control the animation. <br><br>Once this file is exported as an OTF, it will be a variable icon font with animation property.<br></p>
       </div>
       <div class="w-col w-col-4"></div>
     </div>
@@ -61,38 +61,38 @@
     </div>
     <div class="_8-4-col w-row">
       <div class="column-7 w-col w-col-8">
-        <h2 class="section-header">Apply color font technology</h2>
-        <h3 class="section-subhead">Singled colored icons</h3>
-        <p class="content">To do this, we first have to add a custom parameter to create a color palette with desired colors in the setting of our working variable icon font file. We then add additional color sublayers in both Origin and Target layers.<br>‍<br>After we have done that, we create two copies of each variable font icon. In the Origin and Target layers, we import (as a component) and place the original variable font icon as a fallback option in case the browser could not render color fonts. We import the second copy (as a component) in the color sublayers of both layers. This is the color version of the icon that will be rendered in the browser environment.<br>‍<br>Using the previous example, we can create a color version of our menu-close icon:<br></p>
+        <h2 class="section-header">Apply Color Fonts Technology <br></h2>
+        <h3 class="section-subhead">Single Color Icons</h3>
+        <p class="content">For single color icons, first, add a custom parameter to create a color palette with desired colors in the setting of the working variable icon font file. Then add additional color sublayers in both the Origin and Target layers.<br><br>Next, create two copies of each variable font icon. In the Origin and Target layers, import one copy of the icon as a component to use as a fallback option in case the browser cannot render color fonts. In the color sublayers of Origin and Target layers, import the second copy of the icon, again, as a component. This is the color version of the icon that will be rendered in the browser environment.<br></p>
       </div>
       <div class="w-col w-col-4"></div>
     </div>
     <div class="article-image-container"><img src="images/ContentPage-3.png" width="860" srcset="images/ContentPage-3-p-500.png 500w, images/ContentPage-3-p-800.png 800w, images/ContentPage-3-p-1080.png 1080w, images/ContentPage-3-p-1600.png 1600w, images/ContentPage-3-p-2000.png 2000w, images/ContentPage-3-p-2600.png 2600w, images/ContentPage-3-p-3200.png 3200w, images/ContentPage-3.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
-      <div class="caption">Single colored icon in Origin color sublayer</div>
+      <div class="caption">Single color icon in Origin color sub-layer</div>
     </div>
     <div class="article-image-container"><img src="images/ContentPage-4.png" width="860" srcset="images/ContentPage-4-p-500.png 500w, images/ContentPage-4-p-800.png 800w, images/ContentPage-4-p-1080.png 1080w, images/ContentPage-4-p-1600.png 1600w, images/ContentPage-4-p-2000.png 2000w, images/ContentPage-4-p-2600.png 2600w, images/ContentPage-4-p-3200.png 3200w, images/ContentPage-4.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
-      <div class="caption centered">Single colored icon in Target color sublayer</div>
+      <div class="caption centered">Single color icon in Target color sub-layer</div>
     </div>
     <div class="_4-8-col w-row">
       <div class="column-9 w-col w-col-4"><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e16cda7aa1adb1de8aa8ee8_BiColorHeart.png" width="458" alt="" class="image">
-        <div class="caption centered">An bi-colored heart icon</div>
+        <div class="caption centered">A two-tone heart icon</div>
       </div>
       <div class="column-7 w-col w-col-8">
-        <h1 class="section-subhead">Bi-colored icons</h1>
-        <p class="content">For bi-colored icons, there is one additional step: icons need to be separated by color and placed into their corresponding color sub-layers. For example, if we want to create this bi-colored heart icon, we have to isolate different parts of the icon including their animations, base on the colors, and then place the icon parts into correct color layers.<br>‍<br>Since we now have two colors for the icon and also need a fallback, we have to create three copies of each variable font icon. Again, we import these copies as components. we place the original copy into the Origin and Target layers as the fallback. In the second copy, we only keep the parts of the icon that is in dark blue. We place this copy into the dark blue sublayers under origin and target. In the third copy, we only include light blue parts. We place this copy into the light blue sublayer under origin and target.<br><br>Once these steps are done for every single icon, export and we will have a bi-colored animated variable icon font.<br></p>
+        <h1 class="section-subhead">Two-Tone Icons</h1>
+        <p class="content">For two-tone icons, there is one additional step: icons need to be separated by color and placed into their corresponding color sub-layers. For example, to create this two-tone heart icon, we have to isolate different parts of the icon including their animations, based on the colors, and then place the icon parts into correct color layers.<br>‍<br>Since there are two colors for the icon plus a fallback, create three copies of each variable font icon. Import these copies as components and place the original copy into the Origin and Target layers as the fallback. In the second copy, keep the parts of the icon that is in dark blue. Place this copy into the dark blue sublayers under Origin and Target. In the third copy, only include light blue parts. Place this copy into the light blue sublayer under Origin and Target.<br><br>Once these steps are done for every icon, export them to have a two-tone, animated variable icon font.<br></p>
       </div>
     </div>
     <div class="article-image-container"><img src="images/ContentPage-5.png" width="860" srcset="images/ContentPage-5-p-500.png 500w, images/ContentPage-5-p-800.png 800w, images/ContentPage-5-p-1080.png 1080w, images/ContentPage-5-p-1600.png 1600w, images/ContentPage-5-p-2000.png 2000w, images/ContentPage-5-p-2600.png 2600w, images/ContentPage-5-p-3200.png 3200w, images/ContentPage-5.png 6660w" sizes="(max-width: 767px) 96vw, 92vw" alt="" class="image">
-      <div class="caption centered">Bi-Colored icons must be separated by colors</div>
+      <div class="caption centered">Two-tone icons must be separated by colors</div>
     </div>
     <div class="_8-4-col w-row">
       <div class="column-7 w-col w-col-8">
-        <h1 class="article-subhead">Use Anicons for your projects</h1>
-        <h2 class="section-header">Incorporate Anicons into your designs</h2>
-        <p class="content">You can easily incorporate Anicons into your design projects by installing it onto your machine. When you download the Anicons project files, it comes with static versions of the icon font with two weights: Start and End. The static versions help you plan how you use Anicons in design software that doesn’t support Variable Fonts or Color Fonts.<br></p><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e162eb5496c0181143157b3_AniconStatStart.png" width="390" alt="">
-        <div class="caption caption-left">Start weight shows the icon font at the start stage of the animation</div>
+        <h1 class="article-subhead">Use Anicons for your design projects</h1>
+        <h2 class="section-header">Incorporate Anicons into Designs<br></h2>
+        <p class="content">Easily incorporate Anicons into design projects by installing Anicons font files onto your machine. The downloaded Anicons project file comes with static versions of the icon font with two weights: Start and End. The static versions of Anicons work in design software that doesn’t support variable fonts or color fonts.<br></p><img src="https://uploads-ssl.webflow.com/5e13683948d7ea84d0eb3f6d/5e162eb5496c0181143157b3_AniconStatStart.png" width="390" alt="">
+        <div class="caption caption-left">Start shows the icon font at the starting stage of the animation</div>
         <h2 class="section-header">On the Web</h2>
-        <p class="content">Embed Anicons fonts into a webpage by copy the Anicons stylesheet into the &lt;head&gt; of the HTML. Now, add some CSS to see Anicons in action!<br>‍<br>Like with a regular font, we can use the @font-face declaration to first load the font. We then use CSS code such as, font-variation-settings, hover or @keyframe to make our icon font animations come alive. You can play with code and animations on our <a href="use.html">How to Use page</a>. You can also see more detailed documentation and download our project files on <a href="https://github.com/Typogram/Varicons#" target="_blank">Github.</a><br></p>
+        <p class="content">Embed Anicons fonts into a webpage by copying the Anicons stylesheet into the &lt;head&gt; of the HTML. Add CSS to see Anicons in action!<br><br>Like with a regular font, use the @font-face declaration to first load the font. Use CSS code (font-variation-settings, hover or @keyframe) to make the icon font animations come alive. Play with code and animations on our <a href="https://anicons.webflow.io/use">How to Use page</a>. Download the project and see more detailed information on <a href="https://github.com/Typogram/Varicons#">Github.</a><br><br></p>
       </div>
       <div class="w-col w-col-4"></div>
     </div>
