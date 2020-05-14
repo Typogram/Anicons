@@ -32,37 +32,25 @@ End shows the icon at the ending stage of the animation
 ## Use Anicons on the Web
 
 ##### 1. Embed Font
-To embed Anicons fonts into a webpage, copy this code into the <head> of your HTML document. 
+To embed Anicons fonts into a webpage, self host the fonts.
 
-Use the following HTML to embed Anicons Regular:
-```
-<link href="https://fonts.googleapis.com/css?family=Anicons+Regular&display=swap" rel="stylesheet">
-```
-Use the following HTML to embed Anicons Color:
-```
-<link href="https://fonts.googleapis.com/css?family=Anicons+Color&display=swap" rel="stylesheet">
-```
-Use the following HTML to embed Anicons Regular and Anicons Color:
-```
-<link href="https://fonts.googleapis.com/css?family=Anicons+Regular|Anicons+Color&display=swap" rel="stylesheet">
-```
 ##### 2. Specify Icon Character in HTML
-
 Use the following HTML to specify the icon character:
-```
+```html
 <!-- replace “A” with appropriate character.--> 
 <div class=”icon”>A</div>
 ```
-##### 3. Specify Font Family in CSS
 
+##### 3. Specify Font Family in CSS
 Use the following CSS rules to specify the families:
-```
+```css
 font-family: "Anicons Regular", sans-serif;
 font-family: "Anicons Color", sans-serif;
 ```
+
 ##### 4. Animate
 Use the following CSS rules to animate the icon. `font-variation-settings` provides control over the variable font characteristics, (in our case, time) of our icon font. 
-```
+```css
 .icon {
 	font-variation-settings: "TIME" 1;
 	transition: font-variation-settings 0.4s ease;
@@ -72,7 +60,7 @@ Use the following CSS rules to animate the icon. `font-variation-settings` provi
 }
 ```
 or use @keyframes animation:
-```
+```css
 @keyframes icon-animation {
 	0% { font-variation-settings: "TIME" 1; }
 	100% { font-variation-settings: "TIME" 100; }
@@ -81,9 +69,18 @@ or use @keyframes animation:
 	animation: icon-animation .5s ease-in-out infinite;
 }
 ```
-## Reference
-https://www.harbortype.com/blog/rocher-color-making-a-variable-color-font/
-<br/>
-https://glyphsapp.com/tutorials/creating-a-variable-font
 
+## Learn More
 
+Using variable fonts
+
+* https://theblog.adobe.com/can-variable-fonts-illustrator-cc/
+* https://blogs.adobe.com/creative/adobe-indesign-2020/
+* https://create.adobe.com/2018/5/22/variable_fonts_are_t.html
+* https://blog.sketchapp.com/variable-fonts-improved-opentype-support-and-a-new-data-plugin-whats-new-in-sketch-e16f81bf8b75
+
+Making variable fonts and color fonts
+
+* https://www.harbortype.com/blog/rocher-color-making-a-variable-color-font/
+* https://glyphsapp.com/tutorials/creating-a-variable-font
+* https://github.com/jenskutilek/RoboChrome
