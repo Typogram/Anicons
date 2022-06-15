@@ -1,161 +1,185 @@
-<!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Feb 18 2020 06:39:56 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Jun 15 2022 21:47:09 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5e13b472c5e98ce1130493a8" data-wf-site="5df6b1096a31d57b5c419bb1">
 <head>
   <meta charset="utf-8">
-  <title>Anicons: Icon Fonts With Color and Animation</title>
-  <meta content="Anicons: Icon Fonts With Color and Animation" property="og:title">
+  <title>Anicons: Icon Fonts With Color and Animation — Project by Typogram</title>
+  <meta content="Anicons: Icon Fonts With Color and Animation — Project by Typogram" property="og:title">
+  <meta content="Anicons: Icon Fonts With Color and Animation — Project by Typogram" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/anicons.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/anicons.css" rel="stylesheet" type="text/css">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://typogram.github.io/Anicons/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
 </head>
 <body>
-  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar header fixed-header w-nav">
-    <a bind:class="{ animated: scrolling}" href="index.html" class="anicons-logo w-inline-block w--current">
-      <div><span class="letter">A</span><span class="letter">n</span><span class="letter">i</span><span class="letter">c</span><span class="letter anicons"> </span><span class="letter">n</span><span class="letter">s</span></div>
-    </a>
-    <nav role="navigation" class="nav-menu w-clearfix w-nav-menu"><a href="index.html" class="nav-link w-nav-link w--current">Showcase</a><a href="use.html" class="nav-link w-nav-link">Use</a><a href="about.html" class="nav-link w-nav-link">About</a><a href="https://github.com/Typogram/Varicons/releases/download/1.0/Anicons.zip" class="nav-button w-nav-link">Download</a></nav>
-    <div class="menu-button w-nav-button">
-      <div class="menu-icon">A</div>
-    </div>
-  </div>
-  <div id="sliders" class="sliders">
-    <div id="showcase-anicons-app" class="showcase-app-wrapper">
-      <div class="slider gradient-bg-2">
-        <div class="hero-text">
-          <div class="hero-title">Introducing Anicons</div>
-          <h2 class="hero-subhead">icon fonts with baked-in animation and colors</h2>
-        </div>
-        <div class="showcase-star">
-          <div id="big-icon" class="big-icon animated">P</div>
-          <div class="big-icon big-icon-top-left animated">C</div>
-          <div class="big-icon big-icon-top-right animated">T</div>
-          <div class="big-icon big-icon-bottom-left animated">1</div>
-          <div class="big-icon big-icon-bottom-right animated">J</div>
-        </div>
-        <div data-w-id="c252ed85-24fc-b32d-51a8-4d0b4c1155ab" class="down-arrow-wrapper">
-          <div class="scroll-down">Scroll to see more</div><img src="images/keyboard_arrow_down-24px.svg" width="36" height="36" alt=""></div>
-      </div>
-      <div class="slider gradient-bg">
-        <div class="container w-container">
-          <div class="card-wrapper">
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 1</div>
-            </div>
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 17</div>
-            </div>
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 34</div>
-            </div>
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 50</div>
-            </div>
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 67</div>
-            </div>
-            <div class="card half-width-card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 83</div>
-            </div>
-            <div class="card">
-              <div class="card-icon">g</div>
-              <div class="card-index">&quot;TIME&quot; 100</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slider gradient-bg-2">
-        <div id="showcase-triple" v-cloak="true" class="showcase">
-          <div class="invisible-slider invisible-slider-2 w-embed"><input class="invisible-slider" type="range" min="1" max="100" v-model="time2"></div>
-          <div class="icon-row-2">
-            <div class="showcase-icon-2">A</div>
-            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">A</div>
-            <div class="showcase-icon-2 showcase-icon-2-end">A</div>
-          </div>
-          <div class="icon-row-2">
-            <div class="showcase-icon-2">B</div>
-            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">B</div>
-            <div class="showcase-icon-2 showcase-icon-2-end">B</div>
-          </div>
-          <div class="icon-row-2">
-            <div class="showcase-icon-2">C</div>
-            <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">C</div>
-            <div class="showcase-icon-2 showcase-icon-2-end">C</div>
-          </div>
-          <div class="icon-slider">
-            <div v-bind:style="thumbStyles2" class="slider-thumb">
-              <div class="icon-time-info">&quot;TIME&quot; {{time2}}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slider gradient-bg-4">
-        <div class="container-2 w-container">
-          <div class="grid-wrapper">
-            <div class="w-layout-grid showcase-grid-2">
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">A</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">V</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">e</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">m</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">R</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">g</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">w</div>
-              </div>
-              <div class="showcase-icon-font">
-                <div class="icon-font-medium">a</div>
-              </div>
-              <div id="w-node-5c5b996dea3f-130493a8" class="showcase-icon-font">
-                <div class="icon-font-medium">c</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slider gradient-bg-2">
-        <div class="w-container">
-          <div class="showcase-icon-font">
-            <div class="preview-box">
-              <div class="icon-font-large">P</div>
-            </div>
-          </div>
-        </div>
+  <div class="ty-background"></div>
+  <div data-w-id="7f21f652-f653-40a7-e9a2-b7b99ae1e383" class="ty-wrapper">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar header fixed-header w-nav">
+      <a bind:class="{ animated: scrolling}" href="index.html" aria-current="page" class="anicons-logo w-inline-block w--current">
+        <div><span class="letter">A</span><span class="letter">n</span><span class="letter">i</span><span class="letter">c</span><span class="letter anicons"> </span><span class="letter">n</span><span class="letter">s</span></div>
+      </a>
+      <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+        <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Showcase</a>
+        <a href="use.html" class="nav-link w-nav-link">Use</a>
+        <a href="about.html" class="nav-link w-nav-link">About</a>
+        <a href="https://github.com/Typogram/Varicons/releases/download/1.0/Anicons.zip" class="nav-button w-nav-link">Download</a>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="menu-icon">A</div>
       </div>
     </div>
+    <div id="sliders" class="sliders">
+      <div id="showcase-anicons-app" class="showcase-app-wrapper">
+        <div class="slider gradient-bg-2">
+          <div class="hero-text">
+            <div class="hero-title">Introducing Anicons</div>
+            <h2 class="hero-subhead">icon fonts with baked-in animation and colors</h2>
+          </div>
+          <div class="showcase-star">
+            <div id="big-icon" class="big-icon animated">P</div>
+            <div class="big-icon big-icon-top-left animated">C</div>
+            <div class="big-icon big-icon-top-right animated">T</div>
+            <div class="big-icon big-icon-bottom-left animated">1</div>
+            <div class="big-icon big-icon-bottom-right animated">J</div>
+          </div>
+          <div data-w-id="c252ed85-24fc-b32d-51a8-4d0b4c1155ab" class="down-arrow-wrapper">
+            <div class="scroll-down">Scroll to see more</div><img src="images/keyboard_arrow_down-24px.svg" width="36" height="36" alt="">
+          </div>
+        </div>
+        <div class="slider gradient-bg">
+          <div class="container w-container">
+            <div class="card-wrapper wf-section">
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 1</div>
+              </div>
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 17</div>
+              </div>
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 34</div>
+              </div>
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 50</div>
+              </div>
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 67</div>
+              </div>
+              <div class="card half-width-card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 83</div>
+              </div>
+              <div class="card">
+                <div class="card-icon">g</div>
+                <div class="card-index">&quot;TIME&quot; 100</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider gradient-bg-2">
+          <div id="showcase-triple" v-cloak="true" class="showcase">
+            <div class="invisible-slider invisible-slider-2 w-embed"><input class="invisible-slider" type="range" min="1" max="100" v-model="time2"></div>
+            <div class="icon-row-2">
+              <div class="showcase-icon-2">A</div>
+              <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">A</div>
+              <div class="showcase-icon-2 showcase-icon-2-end">A</div>
+            </div>
+            <div class="icon-row-2">
+              <div class="showcase-icon-2">B</div>
+              <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">B</div>
+              <div class="showcase-icon-2 showcase-icon-2-end">B</div>
+            </div>
+            <div class="icon-row-2">
+              <div class="showcase-icon-2">C</div>
+              <div v-bind:style="iconStyles2" class="showcase-icon-2 showcase-icon-2-middle">C</div>
+              <div class="showcase-icon-2 showcase-icon-2-end">C</div>
+            </div>
+            <div class="icon-slider">
+              <div v-bind:style="thumbStyles2" class="slider-thumb">
+                <div class="icon-time-info">&quot;TIME&quot; {{time2}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider gradient-bg-4">
+          <div class="container-2 w-container">
+            <div class="grid-wrapper">
+              <div class="w-layout-grid showcase-grid-2">
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">A</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">V</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">e</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">m</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">R</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">g</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">w</div>
+                </div>
+                <div class="showcase-icon-font">
+                  <div class="icon-font-medium">a</div>
+                </div>
+                <div id="w-node-f19cf63e-6b8b-9b74-60c2-5c5b996dea3f-130493a8" class="showcase-icon-font">
+                  <div class="icon-font-medium">c</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider gradient-bg-2">
+          <div class="w-container">
+            <div class="showcase-icon-font">
+              <div class="preview-box">
+                <div class="icon-font-large">P</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <div data-w-id="686063ec-cc9d-f04c-d9e0-56274ab389e2" style="display:none" class="ty-modal">
+    <div data-w-id="686063ec-cc9d-f04c-d9e0-56274ab389e3" class="ty-overlay"></div>
+    <div data-w-id="686063ec-cc9d-f04c-d9e0-56274ab389e4" style="-webkit-transform:translate3d(null, 0vh, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 0vh, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 0vh, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 0vh, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d" class="ty-dialogue">
+      <a href="https://www.youtube.com/watch?v=7PHHaLh1zNU" target="_blank" class="ty-graphic-wrapper w-inline-block"><img src="images/quick_preview.gif" loading="lazy" alt="" class="ty-graphic-lottie"></a>
+      <div class="ty-text-wrapper">
+        <h4 class="ty-subtitle">Introducing</h4>
+        <h1 class="ty-title">Typogram</h1>
+        <p id="w-node-_686063ec-cc9d-f04c-d9e0-56274ab389ec-130493a8" class="ty-paragraph">Hello friend, we are hua and wentin, creator of Anicons. We have been building <a href="https://typogram.co/" target="_blank">Typogram</a> — a logo design app, and it is now ready for pre-order! Take a look!</p>
+        <a id="w-node-_686063ec-cc9d-f04c-d9e0-56274ab389ee-130493a8" href="https://typogram.co/" target="_blank" class="ty-button w-inline-block">
+          <div class="ty-label">tAKE A <br>LOOK</div>
+          <div class="ty-icon-arrow w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill="currentColor" d="M13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5L13 5ZM12 19L11.2929 19.7071C11.4804 19.8946 11.7348 20 12 20C12.2652 20 12.5196 19.8946 12.7071 19.7071L12 19ZM19.7071 12.7071C20.0976 12.3166 20.0976 11.6834 19.7071 11.2929C19.3166 10.9024 18.6834 10.9024 18.2929 11.2929L19.7071 12.7071ZM5.70711 11.2929C5.31658 10.9024 4.68342 10.9024 4.29289 11.2929C3.90237 11.6834 3.90237 12.3166 4.29289 12.7071L5.70711 11.2929ZM11 5L11 19H13L13 5L11 5ZM12.7071 19.7071L19.7071 12.7071L18.2929 11.2929L11.2929 18.2929L12.7071 19.7071ZM12.7071 18.2929L5.70711 11.2929L4.29289 12.7071L11.2929 19.7071L12.7071 18.2929Z"></path>
+            </svg></div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5df6b1096a31d57b5c419bb1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/anicons.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="js/showcase.js"></script>
+  <script src="https://typogram.github.io/Anicons/js/showcase.js"></script>
 </body>
 </html>
