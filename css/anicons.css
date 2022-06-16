@@ -1238,6 +1238,10 @@ a {
   transform: none;
 }
 
+.ty-dialogue.ty-dialogue-white-background {
+  background-image: none;
+}
+
 .ty-title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1286,7 +1290,10 @@ a {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
